@@ -31,3 +31,10 @@ function deepCopy(){
     }
 }
 
+function readName(){
+    return private["_name"]; 
+}
+
+function changeName(newName){
+    private["_name"] = newName; 
+}
